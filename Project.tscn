@@ -4,12 +4,21 @@
 
 [node name="Spatial" type="Spatial"]
 
-[node name="Label" type="Label" parent="."]
+[node name="Tom" type="Node" parent="."]
+
+[node name="Camera" type="Camera" parent="Tom"]
+transform = Transform( 1, 0, 0, 0, 0.912356, 0.409398, 0, -0.409398, 0.912356, 0, 0.491874, 0.913309 )
+
+[node name="Label" type="Label" parent="Tom"]
+modulate = Color( 1, 0, 0, 1 )
 margin_left = 472.0
 margin_right = 611.0
 margin_bottom = 16.0
 text = "ProjectLeek Pre-alpha"
+align = 1
 
-[node name="Sprite3D" type="Sprite3D" parent="."]
+[node name="ZaWarudo" type="Node" parent="."]
+
+[node name="Sprite3D" type="Sprite3D" parent="ZaWarudo"]
 transform = Transform( 3, 0, 0, 0, -1.31134e-07, 1, 0, -3, -4.37114e-08, 0, 0, 0 )
 texture = ExtResource( 1 )
