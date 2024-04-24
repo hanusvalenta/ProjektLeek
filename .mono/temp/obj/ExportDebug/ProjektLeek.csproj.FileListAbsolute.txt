@@ -1,0 +1,10 @@
+C:\Users\Hans\Main\Projects\ProjektLeek\.mono\temp\bin\ExportDebug\ProjektLeek.dll
+C:\Users\Hans\Main\Projects\ProjektLeek\.mono\temp\bin\ExportDebug\ProjektLeek.pdb
+C:\Users\Hans\Main\Projects\ProjektLeek\.mono\temp\obj\ExportDebug\ProjektLeek.csproj.AssemblyReference.cache
+C:\Users\Hans\Main\Projects\ProjektLeek\.mono\temp\obj\ExportDebug\ProjektLeek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hans\Main\Projects\ProjektLeek\.mono\temp\obj\ExportDebug\ProjektLeek.AssemblyInfoInputs.cache
+C:\Users\Hans\Main\Projects\ProjektLeek\.mono\temp\obj\ExportDebug\ProjektLeek.AssemblyInfo.cs
+C:\Users\Hans\Main\Projects\ProjektLeek\.mono\temp\obj\ExportDebug\ProjektLeek.csproj.CoreCompileInputs.cache
+C:\Users\Hans\Main\Projects\ProjektLeek\.mono\temp\obj\ExportDebug\ProjektLeek.sourcelink.json
+C:\Users\Hans\Main\Projects\ProjektLeek\.mono\temp\obj\ExportDebug\ProjektLeek.dll
+C:\Users\Hans\Main\Projects\ProjektLeek\.mono\temp\obj\ExportDebug\ProjektLeek.pdb

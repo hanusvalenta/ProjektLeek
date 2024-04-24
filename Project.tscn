@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://Alpha_ground.png" type="Texture" id=1]
+[ext_resource path="res://Textures/Alpha_ground.png" type="Texture" id=1]
 [ext_resource path="res://Dio.cs" type="Script" id=2]
+[ext_resource path="res://Textures/Sword.png" type="Texture" id=3]
 
 [node name="Spatial" type="Spatial"]
 
@@ -10,13 +11,20 @@
 [node name="Camera" type="Camera" parent="Tom"]
 transform = Transform( 1, 0, 0, 0, 0.912356, 0.409398, 0, -0.409398, 0.912356, 0, 0.491874, 0.913309 )
 
-[node name="Label" type="Label" parent="Tom"]
+[node name="UI" type="Node" parent="Tom"]
+
+[node name="Label" type="Label" parent="Tom/UI"]
 modulate = Color( 1, 0, 0, 1 )
 margin_left = 472.0
 margin_right = 611.0
 margin_bottom = 16.0
 text = "ProjectLeek Pre-alpha"
 align = 1
+
+[node name="Sprite" type="Sprite" parent="Tom/UI"]
+position = Vector2( 520, 520 )
+scale = Vector2( 0.4, 0.4 )
+texture = ExtResource( 3 )
 
 [node name="ZaWarudo" type="Node" parent="."]
 
