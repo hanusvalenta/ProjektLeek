@@ -1,4 +1,6 @@
-[gd_scene format=2]
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Alpha_ground.png" type="Texture" id=1]
 
 [node name="Spatial" type="Spatial"]
 
@@ -7,3 +9,7 @@ margin_left = 472.0
 margin_right = 611.0
 margin_bottom = 16.0
 text = "ProjectLeek Pre-alpha"
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+transform = Transform( 3, 0, 0, 0, -1.31134e-07, 1, 0, -3, -4.37114e-08, 0, 0, 0 )
+texture = ExtResource( 1 )
