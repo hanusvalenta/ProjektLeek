@@ -1,0 +1,9 @@
+[gd_scene format=2]
+
+[node name="Spatial" type="Spatial"]
+
+[node name="Label" type="Label" parent="."]
+margin_left = 472.0
+margin_right = 611.0
+margin_bottom = 16.0
+text = "ProjectLeek Pre-alpha"
