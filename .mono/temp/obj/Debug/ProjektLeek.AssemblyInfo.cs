@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjektLeek")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74f66f9dbce8c18e7c150e6ef4d6d19df9f7ab67")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94df9c3a0b2d6f0ee98c1b053b90f1e3c87018dd")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjektLeek")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjektLeek")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

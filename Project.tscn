@@ -22,8 +22,8 @@ text = "ProjectLeek Pre-alpha"
 align = 1
 
 [node name="Sprite" type="Sprite" parent="Tom/UI"]
-position = Vector2( 520, 520 )
-scale = Vector2( 0.4, 0.4 )
+position = Vector2( 152, 48 )
+scale = Vector2( 0.21875, 0.21875 )
 texture = ExtResource( 3 )
 
 [node name="ZaWarudo" type="Node" parent="."]
