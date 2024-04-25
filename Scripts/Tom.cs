@@ -1,7 +1,7 @@
 using Godot;
 using System;
 
-public class Player : KinematicBody
+public class Tom : KinematicBody
 {
 	[Export]
 	public float Speed = 2.5f;
