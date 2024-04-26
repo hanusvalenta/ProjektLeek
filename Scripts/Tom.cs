@@ -15,6 +15,9 @@ public class Tom : KinematicBody
 	[Export]
 	public float Gravity = 50f;
 
+	[Export]
+	public float RotationSpeed = 1.0f; // Speed of rotation in degrees per second
+
 	private Vector3 velocity = new Vector3();
 
 	private bool isJumping = false;
@@ -60,5 +63,15 @@ public class Tom : KinematicBody
 		velocity.y -= Gravity * delta;
 
 		MoveAndSlide(velocity, Vector3.Up);
+
+		// Rotate the player when E or Q is pressed
+		if (Input.IsActionPressed("rotate_clockwise"))
+		{
+			RotateY(Mathf.Deg2Rad(90) * delta * RotationSpeed); // Rotate clockwise by 90 degrees
+		}
+		else if (Input.IsActionPressed("rotate_counterclockwise"))
+		{
+			RotateY(Mathf.Deg2Rad(-90) * delta * RotationSpeed); // Rotate counterclockwise by 90 degrees
+		}
 	}
 }
