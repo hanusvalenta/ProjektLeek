@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hans\\Main\\Projects\\ProjektLeek\\ProjektLeek.csproj",
+      "projectUniqueName": "C:\\Users\\Hans\\Downloads\\ProjektLeek\\ProjektLeek.csproj",
       "projectName": "ProjektLeek",
-      "projectPath": "C:\\Users\\Hans\\Main\\Projects\\ProjektLeek\\ProjektLeek.csproj",
+      "projectPath": "C:\\Users\\Hans\\Downloads\\ProjektLeek\\ProjektLeek.csproj",
       "packagesPath": "C:\\Users\\Hans\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hans\\Main\\Projects\\ProjektLeek\\.mono\\temp\\obj\\",
+      "outputPath": "C:\\Users\\Hans\\Downloads\\ProjektLeek\\.mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,17 +45,12 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
       "net472": {
         "targetAlias": "net472",
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.414\\RuntimeIdentifierGraph.json"
       }
     }
   }

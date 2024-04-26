@@ -8,3 +8,12 @@ C:\Users\Hans\Main\Projects\ProjektLeek\.mono\temp\obj\Debug\ProjektLeek.csproj.
 C:\Users\Hans\Main\Projects\ProjektLeek\.mono\temp\obj\Debug\ProjektLeek.sourcelink.json
 C:\Users\Hans\Main\Projects\ProjektLeek\.mono\temp\obj\Debug\ProjektLeek.dll
 C:\Users\Hans\Main\Projects\ProjektLeek\.mono\temp\obj\Debug\ProjektLeek.pdb
+C:\Users\Hans\Downloads\ProjektLeek\.mono\temp\bin\Debug\ProjektLeek.dll
+C:\Users\Hans\Downloads\ProjektLeek\.mono\temp\bin\Debug\ProjektLeek.pdb
+C:\Users\Hans\Downloads\ProjektLeek\.mono\temp\obj\Debug\ProjektLeek.csproj.AssemblyReference.cache
+C:\Users\Hans\Downloads\ProjektLeek\.mono\temp\obj\Debug\ProjektLeek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hans\Downloads\ProjektLeek\.mono\temp\obj\Debug\ProjektLeek.AssemblyInfoInputs.cache
+C:\Users\Hans\Downloads\ProjektLeek\.mono\temp\obj\Debug\ProjektLeek.AssemblyInfo.cs
+C:\Users\Hans\Downloads\ProjektLeek\.mono\temp\obj\Debug\ProjektLeek.csproj.CoreCompileInputs.cache
+C:\Users\Hans\Downloads\ProjektLeek\.mono\temp\obj\Debug\ProjektLeek.dll
+C:\Users\Hans\Downloads\ProjektLeek\.mono\temp\obj\Debug\ProjektLeek.pdb

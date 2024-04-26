@@ -1,10 +1,11 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://Textures/Alpha_health.png" type="Texture" id=1]
 [ext_resource path="res://Scripts/Tom.cs" type="Script" id=2]
 [ext_resource path="res://Scripts/DeathCollider.cs" type="Script" id=3]
 [ext_resource path="res://Scripts/Dio.cs" type="Script" id=4]
 [ext_resource path="res://Textures/Alpha_ground.png" type="Texture" id=5]
+[ext_resource path="res://Textures/black.jpg" type="Texture" id=6]
 
 [sub_resource type="CapsuleShape" id=2]
 radius = 0.852661
@@ -72,3 +73,13 @@ script = ExtResource( 3 )
 [node name="CollisionShape" type="CollisionShape" parent="ZaWarudo/DeathCollider"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.643894, 0 )
 shape = SubResource( 4 )
+
+[node name="MyLife" type="Label3D" parent="ZaWarudo"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.544497, -1.42894 )
+pixel_size = 0.05
+modulate = Color( 1, 0, 0, 1 )
+text = "Missing texture"
+
+[node name="Black" type="Sprite3D" parent="ZaWarudo"]
+transform = Transform( 100, 0, 0, 0, -4.37114e-06, 1, 0, -100, -4.37114e-08, 0, -0.688105, 0 )
+texture = ExtResource( 6 )
