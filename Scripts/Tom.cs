@@ -16,10 +16,10 @@ public class Tom : KinematicBody
 	public float Gravity = 50f;
 
 	[Export]
-	public float RotationSpeed = 1.0f; // Speed of rotation in degrees per second
+	public float RotationSpeed = 1.0f;
 
 	private Vector3 velocity = new Vector3();
-	private Camera camera; // Reference to the camera node
+	private Camera camera;
 
 	private bool isJumping = false;
 
@@ -27,27 +27,24 @@ public class Tom : KinematicBody
 	{
 		GD.Print("Tom ready...");
 		camera = GetNode
-		("Camera") as Camera; // Assuming the camera is named "Camera"
+		("Camera") as Camera;
 	}
 
 	public override void _PhysicsProcess(float delta)
 	{
 		if (camera == null)
-			return; // Camera reference not found, exit function
+			return;
 
 		Vector3 movementInput = new Vector3();
 
-		// Get camera rotation
 		Vector3 cameraRotation = camera.GlobalTransform.basis.GetEuler();
 		float cameraYaw = cameraRotation.y;
 
-		// Adjust movement input based on camera rotation
 		if (Input.IsActionPressed("move_forward"))
 			movementInput -= new Vector3((float)Math.Sin(cameraYaw), 0, (float)Math.Cos(cameraYaw));
 		if (Input.IsActionPressed("move_backward"))
 			movementInput += new Vector3((float)Math.Sin(cameraYaw), 0, (float)Math.Cos(cameraYaw));
 
-		// Calculate perpendicular direction to camera yaw for strafing left/right
 		Vector3 perpendicularDirection = new Vector3((float)Math.Cos(cameraYaw), 0, -(float)Math.Sin(cameraYaw));
 
 		if (Input.IsActionPressed("move_left"))
@@ -79,14 +76,13 @@ public class Tom : KinematicBody
 
 		MoveAndSlide(velocity, Vector3.Up);
 
-		// Rotate the player when E or Q is pressed
 		if (Input.IsActionPressed("rotate_clockwise"))
 		{
-			RotateY(Mathf.Deg2Rad(90) * delta * RotationSpeed); // Rotate clockwise by 90 degrees
+			RotateY(Mathf.Deg2Rad(90) * delta * RotationSpeed);
 		}
 		else if (Input.IsActionPressed("rotate_counterclockwise"))
 		{
-			RotateY(Mathf.Deg2Rad(-90) * delta * RotationSpeed); // Rotate counterclockwise by 90 degrees
+			RotateY(Mathf.Deg2Rad(-90) * delta * RotationSpeed);
 		}
 	}
 }
