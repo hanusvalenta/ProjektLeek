@@ -46,10 +46,14 @@ public class Tom : KinematicBody
 			movementInput -= new Vector3((float)Math.Sin(cameraYaw), 0, (float)Math.Cos(cameraYaw));
 		if (Input.IsActionPressed("move_backward"))
 			movementInput += new Vector3((float)Math.Sin(cameraYaw), 0, (float)Math.Cos(cameraYaw));
+
+		// Calculate perpendicular direction to camera yaw for strafing left/right
+		Vector3 perpendicularDirection = new Vector3((float)Math.Cos(cameraYaw), 0, -(float)Math.Sin(cameraYaw));
+
 		if (Input.IsActionPressed("move_left"))
-			movementInput -= new Vector3((float)Math.Cos(cameraYaw), 0, (float)Math.Sin(cameraYaw));
+			movementInput -= perpendicularDirection;
 		if (Input.IsActionPressed("move_right"))
-			movementInput += new Vector3((float)Math.Cos(cameraYaw), 0, (float)Math.Sin(cameraYaw));
+			movementInput += perpendicularDirection;
 
 		movementInput = movementInput.Normalized();
 
